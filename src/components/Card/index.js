@@ -181,6 +181,40 @@ const Card = () => {
             </ul>
           </section>
         </div>
+
+        <div className="card">
+          <div className="header">
+            <h3>Platinum Plus as a as</h3>
+            <p>
+              $139 <span className="discount">$109</span>
+              <span>/mth*</span>
+            </p>
+            <p>Min cost $1248*</p>
+
+            <button className="button-active">Select bundle</button>
+          </div>
+
+          <section>
+            <ul className="card-features-list">
+              <li className="feature-list">
+                50+ channels of entertainment drama, lifestyle, docos,, &
+                reality
+              </li>
+              <li className="feature-list">
+                Live TV and huge library of On Demand content to watch anytime
+              </li>
+              <li className="feature-list">
+                The world's best drama series and Foxtel Originals
+              </li>
+              <li className="feature-list">
+                Watch on your TV, PC, Mac, laptop, mobile, & tablet
+              </li>
+              <li className="feature-list link">
+                <a href="#">About Premium</a>
+              </li>
+            </ul>
+          </section>
+        </div>
       </Slider>
     </div>
   );
