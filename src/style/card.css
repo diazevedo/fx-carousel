@@ -1,0 +1,62 @@
+:root {
+  --orange-one: #e85425;
+}
+
+.header {
+  padding: 16px 16px;
+}
+
+.button {
+  background: none;
+  border: none;
+}
+
+.button-active {
+  background-color: var(--orange-one);
+
+  height: 48px;
+  width: 100%;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 46px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards-list {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  width: 312px;
+  border: 1px solid #b3b6b8;
+  text-align: center;
+}
+
+.feature-list {
+  padding: 10px 16px;
+  border-top: 1px solid #b3b6b8;
+  font-size: 13px;
+  color: #343434;
+  font-weight: 600;
+  text-align: left;
+}
+
+.feature-list.link {
+  text-align: center;
+}
+
+.feature-list.link a {
+  color: var(--orange-one);
+  font-family: inherit;
+}
+
+.slick-slide:not(:last-child) {
+  padding-right: 10px;
+}
